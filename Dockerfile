@@ -106,7 +106,6 @@ RUN rm -f /etc/nginx/sites-enabled/default && \
 
 VOLUME [ "/code" ]
 
-# Expose Ports
 EXPOSE 80
 
 ENTRYPOINT ["/bin/bash", "/cmd.sh"]
